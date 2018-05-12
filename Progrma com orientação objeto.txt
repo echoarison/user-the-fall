@@ -1,0 +1,4 @@
+Que deve fazer o seguiente:
+	Vou criar um objeto nesse objeto ter suas propriedade são o seguiente: Nome,profissão, idade, foto. 
+	Depois de ter criado ele deve mostrar uma informação diferente. Ex: Pessoa 1, nome: tal, idade: tal; pessoa 2, nome: qualquer, idade: qualquer.
+	criar um botão para mostrar essas informações. 

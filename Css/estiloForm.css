@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #666666;
+}
+/*Formulario*/
+section{
+	float: left;
+	max-height: 800px;
+	max-width: 850px;
+	height: 325px;
+	width: 100%;
+	border-left: 6px solid #333;
+	border-radius: 5px;
+	margin: 10% 0 0 20%;
+	background-color: #bbbbbb;
+}
+section img{
+	height: 200px;
+	width: 250px;
+	margin: 2% 0 0 2%;
+	border-radius: 50%;
+	display: inline-block;
+	float: left;
+}
+section .formulariodousuario{
+	display: inline-block;
+	float: left;
+	margin: 10px 0 0 15px;
+}
+.formulariodousuario input{
+	height: 20px;
+	width: 500px;
+	border: none;
+	border-radius: 2%;
+}
+.formulariodousuario button{
+	/*Centralizando sem nenhum elemento*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	border-radius: 5px;
+	height: 35px;
+	width: 100px;
+}
+.formulariodousuario button:hover{
+	background-color: #111;
+	color: white;
+	cursor: pointer;
+}

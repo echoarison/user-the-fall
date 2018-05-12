@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #666666;
+}
+/*Resultado*/
+
+.resultfnl{
+	float: left;
+	max-height: 800px;
+	max-width: 850px;
+	height: 350px;
+	width: 100%;
+	border-left: 6px solid #333;
+	border-radius: 5px;
+	margin: 10% 0 0 20%;
+	background-color: #bbbbbb;
+}
+.resultfnl img{
+	/*centralizando a imagem no centro só funciona se ela é a unica na linha*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	border-radius: 50%;
+}
+.resultfnl p{
+	text-align: center;
+	
+	/* quebra de palavra ou quebra de linha word-break: keep-all;*/
+}
+.resultfnl button{
+	/*Centralizando sem nenhum elemento*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	border-radius: 5px;
+	height: 35px;
+	width: 100px;
+}
+.resultfnl button:hover{
+	background-color: #111;
+	color: white;
+	cursor: pointer;
+}
