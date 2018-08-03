@@ -23,7 +23,7 @@
 <body onload="Resetar();">
 	<!--Formulario-->
 	<section class="ContFormulario">
-		<img src="user.png" name="imag" id="imag" onerror="this.style.display = 'none' ">
+		<img src="./img/user.png" name="imag" id="imag" onerror="this.style.display = 'none' ">
 		<form name="busc" id="Formulario" method="post" enctype= "multipart/form-data" class="formulariodousuario" action="./php/resultados.php" onsubmit="return validacao();">
 			<input type="text" name="nomes" id="Nome" placeholder="Nome Completo: ">
 			<br><br>
